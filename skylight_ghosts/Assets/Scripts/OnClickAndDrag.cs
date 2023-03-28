@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 public class OnClickAndDrag : MonoBehaviour
 {
-    bool mouseButtonPressed = false;
 
     Vector3 mouseStartPosition;
     Vector3 mousePreviousPosition;
@@ -24,9 +23,6 @@ public class OnClickAndDrag : MonoBehaviour
         {
                 mouseStartPosition = Input.mousePosition;
                 mousePreviousPosition = transform.position;
-                
-                Debug.Log("start position on mouse down");
-                Debug.Log(mouseStartPosition); 
         }
          
         if(Input.GetMouseButton(0))
