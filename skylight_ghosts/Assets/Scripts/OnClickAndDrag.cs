@@ -6,6 +6,7 @@ public class OnClickAndDrag : MonoBehaviour
 
     Vector3 mouseStartPosition;
     Vector3 mousePreviousPosition;
+    GameObject background;
 
     [SerializeField] private float dragSpeed = 0.1f;
     [SerializeField] private float minX = 4.5f;
@@ -19,24 +20,33 @@ public class OnClickAndDrag : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+
+        background = GameObject.FindGameObjectWithTag("Text Background");
+        if (background == null || background.activeSelf == false)
         {
+
+            if (Input.GetMouseButtonDown(0))
+            {
+
                 mouseStartPosition = Input.mousePosition;
                 mousePreviousPosition = transform.position;
-        }
-         
-        if(Input.GetMouseButton(0))
-        {
-            Vector3 delta = Input.mousePosition - mouseStartPosition;
-            float deltaX = delta.x * dragSpeed;
-            float newXpos = Mathf.Clamp(mousePreviousPosition.x + deltaX, minX, maxX);
-            transform.position = new Vector3(newXpos, transform.position.y, transform.position.z);
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                Vector3 delta = Input.mousePosition - mouseStartPosition;
+                float deltaX = delta.x * dragSpeed;
+                float newXpos = Mathf.Clamp(mousePreviousPosition.x + deltaX, minX, maxX);
+                transform.position = new Vector3(newXpos, transform.position.y, transform.position.z);
+
+            }
 
         }
+       
+       
 
+        } 
 
-
-    }
 
 }
    
