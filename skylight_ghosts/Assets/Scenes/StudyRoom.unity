@@ -886,6 +886,31 @@ MonoBehaviour:
   textObject: {fileID: 1234382445}
   backgroundPositionRate: 9
   textPositionRate: 10.13
+--- !u!1 &603079375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c64fe93376077417f83e2a5f2818d21e, type: 3}
+  m_PrefabInstance: {fileID: 1396487499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &603079377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603079375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToTrigger: {fileID: 914573547}
+  displayText: "This vase was your grandmother\u2019s, originally. Got for her wedding,
+    gave it to your mom. Now it\u2019s yours. One of the first things you wanted
+    to do when you unpacked was take some roses from the bushes in the garden and
+    put it on the fireplace, but now you\u2019ll never get the chance. Oh well. "
+  textObject: {fileID: 0}
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1 &607060695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
@@ -997,7 +1022,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToTrigger: {fileID: 914573547}
-  displayText: I'm the suitcase hello
+  displayText: "These suitcases have taken you so many places\u2013 your study abroad
+    in junior year, every apartment between home and here, and so much more. Now
+    they\u2019ll never take you anywhere again."
   textObject: {fileID: 1234382445}
   backgroundPositionRate: 9
   textPositionRate: 10.13
@@ -1176,7 +1203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToTrigger: {fileID: 914573547}
-  displayText: I'm the blood on the ground.
+  displayText: Blood, dried. Is it yours? More likely than not. A shame it stained
+    the rug, though. Whoever ends up finding this place will have a hard time getting
+    that out.
   textObject: {fileID: 1234382445}
   backgroundPositionRate: 9
   textPositionRate: 10.13
@@ -1665,6 +1694,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
+--- !u!1 &1034661152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
+  m_PrefabInstance: {fileID: 1196241761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1034661154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034661152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToTrigger: {fileID: 0}
+  displayText: "You\u2019re not quite sure how this one ended up here, given it\u2019s
+    clearly marked KITCHEN. Maybe you forgot? Regardless, it seems to be missing
+    a few things you could have sworn you packed\u2026 Meat tenderizer, a couple
+    of knives, even your nice garden shears? That\u2019s not concerning at all\u2026"
+  textObject: {fileID: 0}
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1 &1077885270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,6 +2492,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
+--- !u!1 &1492026316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 00713897c568f4963b331b2168bb8be9, type: 3}
+  m_PrefabInstance: {fileID: 57603103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1492026320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492026316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToTrigger: {fileID: 914573547}
+  displayText: "This lamp was here when you moved in\u2013 a solitary light in an
+    empty room. It didn\u2019t light when you plugged it in\u2014at least at first\u2014just
+    another burnt out lightbulb, you figured. When it flickered on, you didn\u2019t
+    think too much of it either, to be honest, too busy alphabetically sorting your
+    dog-eared paperbacks. Should have paid more attention."
+  textObject: {fileID: 0}
+  backgroundPositionRate: 0
+  textPositionRate: 0
 --- !u!1001 &1518807263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2700,6 +2780,32 @@ MonoBehaviour:
   objectToTrigger: {fileID: 914573547}
   displayText: Lamp lamp
   textObject: {fileID: 1234382445}
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
+--- !u!1 &1871704484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -485356175060139533, guid: bc9af353feb144ceca3dadb3d813a985, type: 3}
+  m_PrefabInstance: {fileID: 1896199419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1871704488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871704484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToTrigger: {fileID: 914573547}
+  displayText: "The chandelier is one of the reasons you bought this place, actually.
+    Managed to catch your eye in the pictures and you couldn\u2019t get it out of
+    your mind. Who, you wondered, would put a fixture like that in a room few people
+    would see? Someone who might want to use it for more nefarious reasons, that\u2019s
+    who. "
+  textObject: {fileID: 0}
   backgroundPositionRate: 9
   textPositionRate: 10.13
 --- !u!1001 &1896199419
