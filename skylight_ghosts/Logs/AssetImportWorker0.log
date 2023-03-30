@@ -2,11 +2,11 @@ Unity Editor version:    2021.3.6f1 (7da38d85baf6)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.6 (Build 21G115)
-Darwin version:          21.6.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        8192 MB
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts
+/Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62999
-Successfully changed project path to: /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts
-/Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts
+65304
+Successfully changed project path to: /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts
+/Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,108 +54,119 @@ Successfully changed project path to: /Users/grace/Documents/GitHub/skylight_gho
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 72.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Assets
+[Subsystems] Discovering subsystems at path /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
+ preferred device: Apple M1 Pro (high power)
 Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56074
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001610 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003863 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.485 seconds
+- Completed reload, in  1.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (485ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (1922ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (324ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (78ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1456ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1066ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (265ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (483ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006166 seconds.
+Registered in 0.007208 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
+- Completed reload, in  3.121 seconds
 Domain Reload Profiling:
-	ReloadAssembly (723ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (3124ms)
+		BeginReloadAssembly (294ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (48ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2476ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (252ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1575ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1175ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+database is locked
+database is locked
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (43.5 KB). Loaded Objects now: 3853.
-Memory consumption went from 236.8 MB to 236.7 MB.
-Total: 6.846416 ms (FindLiveObjects: 0.263792 ms CreateObjectMapping: 0.058125 ms MarkObjects: 2.802666 ms  DeleteObjects: 3.721084 ms)
+Unloading 25 unused Assets / (43.5 KB). Loaded Objects now: 3855.
+Memory consumption went from 240.2 MB to 240.2 MB.
+Total: 3.330959 ms (FindLiveObjects: 0.218708 ms CreateObjectMapping: 0.091458 ms MarkObjects: 2.932375 ms  DeleteObjects: 0.087125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,57 +180,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 881168.773216 seconds.
-  path: Assets/Scripts/ClickObject.cs
-  artifactKey: Guid(6d2a37084e1514845be642e27293d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickObject.cs using Guid(6d2a37084e1514845be642e27293d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6e0625b6b33cccea3672127c52f46') in 0.043888 seconds 
+  Time since last request: 65075.388204 seconds.
+  path: Assets/Scenes/StudyRoom.unity
+  artifactKey: Guid(c62a95aa768d14bd9ad8c4f6ed0516db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StudyRoom.unity using Guid(c62a95aa768d14bd9ad8c4f6ed0516db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8804ed4866297edcef7ef11e6d24cb07') in 0.010667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.118118 seconds.
+  path: Assets/Moon Studio
+  artifactKey: Guid(1ebb62012db0b4421a1aca5d081a14ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moon Studio using Guid(1ebb62012db0b4421a1aca5d081a14ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c270ad3fa50cb6ded71f40b7746fa50c') in 0.000924 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001596 seconds.
+Registered in 0.001811 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x285047000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  2.801 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (2803ms)
+		BeginReloadAssembly (338ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (42ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (49ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2198ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (189ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1427ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				InitializePlatformSupportModulesInManaged (133ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (1023ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (22.4 KB). Loaded Objects now: 3856.
-Memory consumption went from 239.3 MB to 239.3 MB.
-Total: 2.206041 ms (FindLiveObjects: 0.123708 ms CreateObjectMapping: 0.048708 ms MarkObjects: 2.005792 ms  DeleteObjects: 0.027166 ms)
+Unloading 18 unused Assets / (48.7 KB). Loaded Objects now: 3858.
+Memory consumption went from 238.7 MB to 238.6 MB.
+Total: 2.706541 ms (FindLiveObjects: 0.207125 ms CreateObjectMapping: 0.083875 ms MarkObjects: 2.374375 ms  DeleteObjects: 0.040375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -234,50 +252,51 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001601 seconds.
+Registered in 0.002301 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16fa77000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/grace/Documents/GitHub/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
+- Completed reload, in  2.813 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (2815ms)
+		BeginReloadAssembly (290ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (45ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2258ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (364ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1480ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				InitializePlatformSupportModulesInManaged (110ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (1092ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3859.
-Memory consumption went from 239.5 MB to 239.5 MB.
-Total: 2.247625 ms (FindLiveObjects: 0.135791 ms CreateObjectMapping: 0.046042 ms MarkObjects: 2.040833 ms  DeleteObjects: 0.024292 ms)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3861.
+Memory consumption went from 239.2 MB to 239.2 MB.
+Total: 2.942959 ms (FindLiveObjects: 0.234166 ms CreateObjectMapping: 0.080375 ms MarkObjects: 2.582583 ms  DeleteObjects: 0.044917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -289,3 +308,596 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 420.508727 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(b087bad13d45d45ff8496d518e093fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(b087bad13d45d45ff8496d518e093fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f684344bb791f84bdb3ef792e5eb781d') in 0.046214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.283263 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures
+  artifactKey: Guid(a9a7882f4cbdfa54d8f110af77baecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures using Guid(a9a7882f4cbdfa54d8f110af77baecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d3b1dec2fab3a11682ad7b7bc11b52') in 0.001702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580482 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01
+  artifactKey: Guid(b37d2c03d8a7a3d4fba8381020866b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01 using Guid(b37d2c03d8a7a3d4fba8381020866b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2f6014cfc758203467f96dc41bc314') in 0.001895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.581390 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER
+  artifactKey: Guid(c88425f39ea7aaa40a240fa18125b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER using Guid(c88425f39ea7aaa40a240fa18125b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a43d93c5b43b9ed03a6fa08440614') in 0.002779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060082 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER/Tombstone_01_BaseColor.png
+  artifactKey: Guid(2a073a1e90740bd419cc955af6322ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER/Tombstone_01_BaseColor.png using Guid(2a073a1e90740bd419cc955af6322ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2896b0656ef983558e348ae5301bb43a') in 0.326687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER/Tombstone_01_Normal.png
+  artifactKey: Guid(75739956d9247e34ba7749a522aa444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_01/PBR BLENDER/Tombstone_01_Normal.png using Guid(75739956d9247e34ba7749a522aa444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8deb7de1dcbdc7f1d7034dcc38a31981') in 0.015089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.185763 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02
+  artifactKey: Guid(405df3e1d29df264a8eddeeb860059c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02 using Guid(405df3e1d29df264a8eddeeb860059c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b648b6cf014eaafbc12825e88f9dcc') in 0.001085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.019943 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER
+  artifactKey: Guid(04873c3fe315de64f8dcdf93d45a3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER using Guid(04873c3fe315de64f8dcdf93d45a3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa4b33e3f67c4a58244480fb9cca9c5') in 0.002033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046053 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER/Tombstone_02_BaseColor.png
+  artifactKey: Guid(fef99afbedcfbc2469550e6c7a0031ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER/Tombstone_02_BaseColor.png using Guid(fef99afbedcfbc2469550e6c7a0031ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c4c2610f8ea3241c4ef3577c10f0bb') in 0.012023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER/Tombstone_02_Roughness.png
+  artifactKey: Guid(5d4f6f347f3f9da47af54530402e0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_02/PBR BLENDER/Tombstone_02_Roughness.png using Guid(5d4f6f347f3f9da47af54530402e0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a9b5a1510ded13a90ba8262d7266a5') in 0.010264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.931092 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03
+  artifactKey: Guid(4c9ffb8c522c2d040aeb5b6d3c9e1a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03 using Guid(4c9ffb8c522c2d040aeb5b6d3c9e1a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713ef8df9ec26b95d696f55add64378c') in 0.001965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.089275 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER
+  artifactKey: Guid(7fca37e823d4c2c45aedb395f4746ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER using Guid(7fca37e823d4c2c45aedb395f4746ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b685e0a37721622486b6d4f246dea19d') in 0.001353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033230 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_BaseColor.png
+  artifactKey: Guid(f1a58933a978b394fbbc8d9340b9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_BaseColor.png using Guid(f1a58933a978b394fbbc8d9340b9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3cf4e9653bac3bf7829b6b5a262dc6') in 0.011318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_Metallic.png
+  artifactKey: Guid(ef8da6b6809af874a95bf281d7d5829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_Metallic.png using Guid(ef8da6b6809af874a95bf281d7d5829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93788a0b830c35bc62c283e17dbd0dcf') in 0.009480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_Normal.png
+  artifactKey: Guid(f62357b43dace1c4da892cc431b9348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/TombstoneTextures/Tombstone_03/PBR BLENDER/Tombstone_03_Normal.png using Guid(f62357b43dace1c4da892cc431b9348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edec78802c17f19caf1f55f6f4b48e2') in 0.009443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.605725 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/BigBase.fbx
+  artifactKey: Guid(d8700fdd5bee783469e257a1e656128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/BigBase.fbx using Guid(d8700fdd5bee783469e257a1e656128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f212c16b1369d90bcce3041f7811c2') in 0.342390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/ground.fbx
+  artifactKey: Guid(43e968e36cd32a14a97fa11158f60700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/ground.fbx using Guid(43e968e36cd32a14a97fa11158f60700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175c472ed3677b6060bf48774a6b94ed') in 0.021806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/SmallGate.fbx
+  artifactKey: Guid(fd99fb6f7d93abe4bbed95d9a504cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/SmallGate.fbx using Guid(fd99fb6f7d93abe4bbed95d9a504cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4c9c032e9be5d2dca811f7162dc6cf') in 0.012873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/SmallBase.fbx
+  artifactKey: Guid(54c664b56d214ca48bc9013463ed9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/SmallBase.fbx using Guid(54c664b56d214ca48bc9013463ed9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2105f0ccb5457a6c07152202188b1ab7') in 0.012238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/Light_Pole.fbx
+  artifactKey: Guid(03bd00d8b87fe5647b1028104259b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/Light_Pole.fbx using Guid(03bd00d8b87fe5647b1028104259b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c0d8e6a30c35c316eee0f92878f41e') in 0.121981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.450885 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/Trees
+  artifactKey: Guid(09f8035a6a8715149ab244730039d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/Trees using Guid(09f8035a6a8715149ab244730039d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afc4cb3f38db23a69b89614d69e3d12') in 0.001467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061812 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/Trees/DeadTree_01.fbx
+  artifactKey: Guid(166889192a5a9e24b941f7b2fa034be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/Trees/DeadTree_01.fbx using Guid(166889192a5a9e24b941f7b2fa034be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b368a927148266efc84f2d5205049a84') in 0.027516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art Assets/Graveyard/Mesh/Trees/DeadTree_03.fbx
+  artifactKey: Guid(0b730a6f7e237a44fafc6d5af8605292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Mesh/Trees/DeadTree_03.fbx using Guid(0b730a6f7e237a44fafc6d5af8605292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25833aa287b2456d45fe12e3087257bb') in 0.075291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.516215 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials
+  artifactKey: Guid(f53d04fc635204fd9b8b716ec8f8bac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials using Guid(f53d04fc635204fd9b8b716ec8f8bac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7039562fa38891327bf65b29d4b4a98a') in 0.001049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065215 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials/DT_Bark_1_Color.mat
+  artifactKey: Guid(f55e4755563bd4750a88788f84f69fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials/DT_Bark_1_Color.mat using Guid(f55e4755563bd4750a88788f84f69fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad698b0cc5d8cdefc60eb0650a3d90fb') in 0.100187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials/DT_Bark_1_Roughness@channels=G.mat
+  artifactKey: Guid(bb381391c2ad14673a652b1eb5259b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Graveyard/Textures/DeadTrees/Materials/DT_Bark_1_Roughness@channels=G.mat using Guid(bb381391c2ad14673a652b1eb5259b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fefc4c117e00057e8d3e4bb1b7503e0') in 0.013086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 493.978007 seconds.
+  path: Assets/Art Assets/Victorian Study/Materials/firePlace_onhover.mat
+  artifactKey: Guid(40876e959cedf47858198ee2690589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Victorian Study/Materials/firePlace_onhover.mat using Guid(40876e959cedf47858198ee2690589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486449b00f22b0b624e0f66700c00eac') in 0.056464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.399522 seconds.
+  path: Assets/Art Assets/Victorian Study/Materials/New Material.mat
+  artifactKey: Guid(6f3eb71d62a29483480822cdc7a21f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Victorian Study/Materials/New Material.mat using Guid(6f3eb71d62a29483480822cdc7a21f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7441ff452b1876486fbf672dd2f7401') in 0.020042 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2887ms)
+		BeginReloadAssembly (369ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (2242ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (113ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (995ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3909.
+Memory consumption went from 257.2 MB to 257.1 MB.
+Total: 2.870625 ms (FindLiveObjects: 0.246167 ms CreateObjectMapping: 0.083583 ms MarkObjects: 2.497042 ms  DeleteObjects: 0.042875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2733ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2143ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (105ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (1016ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3912.
+Memory consumption went from 257.4 MB to 257.3 MB.
+Total: 2.999500 ms (FindLiveObjects: 0.232167 ms CreateObjectMapping: 0.082291 ms MarkObjects: 2.655250 ms  DeleteObjects: 0.028708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2878ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2263ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1062ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3915.
+Memory consumption went from 257.6 MB to 257.6 MB.
+Total: 3.229291 ms (FindLiveObjects: 0.221583 ms CreateObjectMapping: 0.091250 ms MarkObjects: 2.871125 ms  DeleteObjects: 0.043917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002153 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2964ms)
+		BeginReloadAssembly (363ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2314ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (117ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (1108ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3918.
+Memory consumption went from 257.8 MB to 257.8 MB.
+Total: 2.877666 ms (FindLiveObjects: 0.247750 ms CreateObjectMapping: 0.078958 ms MarkObjects: 2.501375 ms  DeleteObjects: 0.048209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 519.540252 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(fe35b618e7d6b4a44bd5bfc503035217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(fe35b618e7d6b4a44bd5bfc503035217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837551aed6beb72a9c7fda393b72c997') in 0.041198 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001901 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2817ms)
+		BeginReloadAssembly (358ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (104ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (1002ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3921.
+Memory consumption went from 258.0 MB to 258.0 MB.
+Total: 2.718667 ms (FindLiveObjects: 0.229958 ms CreateObjectMapping: 0.085541 ms MarkObjects: 2.359667 ms  DeleteObjects: 0.039125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2871ms)
+		BeginReloadAssembly (362ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (2231ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (125ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1019ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3924.
+Memory consumption went from 258.2 MB to 258.2 MB.
+Total: 3.017917 ms (FindLiveObjects: 0.213334 ms CreateObjectMapping: 0.082875 ms MarkObjects: 2.666042 ms  DeleteObjects: 0.054500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002139 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kellydoleo/Documents/classes/code coven/Team Project/skylight_ghost/skylight_ghosts/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3008ms)
+		BeginReloadAssembly (396ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (2330ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (121ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (1114ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.1 KB). Loaded Objects now: 3927.
+Memory consumption went from 258.5 MB to 258.5 MB.
+Total: 3.223083 ms (FindLiveObjects: 0.240625 ms CreateObjectMapping: 0.094583 ms MarkObjects: 2.841375 ms  DeleteObjects: 0.045500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.365882 seconds.
+  path: Assets/Art Assets/Victorian Study/Materials/New Material 1.mat
+  artifactKey: Guid(dc896d50765484855b0570407ed87981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Victorian Study/Materials/New Material 1.mat using Guid(dc896d50765484855b0570407ed87981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9755bde2a9bda53d778fe45e358f7') in 0.256269 seconds 
