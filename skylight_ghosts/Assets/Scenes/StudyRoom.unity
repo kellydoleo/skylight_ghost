@@ -884,8 +884,8 @@ MonoBehaviour:
   objectToTrigger: {fileID: 914573547}
   displayText: I'm the other box hello how do you do?
   textObject: {fileID: 1234382445}
-  backgroundPositionRate: 11
-  textPositionRate: 11.38
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1 &607060695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
@@ -950,8 +950,8 @@ MonoBehaviour:
   displayText: Testing this line I hope it doesnt iover flow. We will see what will
     happen. I dont know if we can change the lines
   textObject: {fileID: 1234382445}
-  backgroundPositionRate: 11
-  textPositionRate: 11.38
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1 &705429020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f17e0dd4a2df4f41aca74e76713706d, type: 3}
@@ -999,8 +999,8 @@ MonoBehaviour:
   objectToTrigger: {fileID: 914573547}
   displayText: I'm the suitcase hello
   textObject: {fileID: 1234382445}
-  backgroundPositionRate: 11
-  textPositionRate: 11.38
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1001 &714364406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1178,8 +1178,8 @@ MonoBehaviour:
   objectToTrigger: {fileID: 914573547}
   displayText: I'm the blood on the ground.
   textObject: {fileID: 1234382445}
-  backgroundPositionRate: 11
-  textPositionRate: 11.38
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1 &837468876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,8 +2700,8 @@ MonoBehaviour:
   objectToTrigger: {fileID: 914573547}
   displayText: Lamp lamp
   textObject: {fileID: 1234382445}
-  backgroundPositionRate: 11
-  textPositionRate: 11.38
+  backgroundPositionRate: 9
+  textPositionRate: 10.13
 --- !u!1001 &1896199419
 PrefabInstance:
   m_ObjectHideFlags: 0
