@@ -16,8 +16,8 @@ public class ClickObject : MonoBehaviour
     private Camera mainCamera;
 
     private bool isClicked = false;
-    public float backgroundPositionRate;
-    public float textPositionRate;
+    private float backgroundPositionRate = 8.5f;
+    private float textPositionRate = 8.9f;
     
 
     private void Start()
@@ -28,6 +28,7 @@ public class ClickObject : MonoBehaviour
         originalPosition = objectToTrigger.transform.position;
         originalTextPosition = textObject.transform.position;
         objectClicked = GetComponent<Transform>();
+        Debug.Log("ScreenToWorldPoint x");
         Debug.Log(mainCamera.ScreenToWorldPoint(new Vector3(0, originalPosition.y, originalPosition.z)).x);
     }
 
@@ -37,8 +38,10 @@ public class ClickObject : MonoBehaviour
     {
         if (!isClicked)
         {
+
+
             objectToTrigger.transform.position = new Vector3((float)mainCamera.ScreenToWorldPoint(new Vector3(0, originalPosition.y, originalPosition.z)).x - backgroundPositionRate, originalPosition.y, originalPosition.z);
-            textObject.transform.position = new Vector3((float)mainCamera.ScreenToWorldPoint(new Vector3(0, originalPosition.y, originalPosition.z)).x - textPositionRate, originalTextPosition.y, originalTextPosition.z);
+            textObject.transform.position = new Vector3((float)mainCamera.ScreenToWorldPoint(new Vector3(0, originalTextPosition.y, originalTextPosition.z)).x - textPositionRate, originalTextPosition.y, originalTextPosition.z);
             Debug.Log(objectToTrigger.transform.position.x);
             objectToTrigger.SetActive(true);
             textObject.enabled = true;

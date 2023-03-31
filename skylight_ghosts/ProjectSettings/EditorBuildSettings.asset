@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StudyRoom.unity
+    guid: c62a95aa768d14bd9ad8c4f6ed0516db
   m_configObjects: {}
