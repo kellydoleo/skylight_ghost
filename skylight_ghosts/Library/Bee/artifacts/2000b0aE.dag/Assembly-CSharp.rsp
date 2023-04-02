@@ -334,8 +334,8 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Art Assets/Lamp Assets/Scripts/Lamp.cs"
-"Assets/Scripts/CanvasScaler.cs"
 "Assets/Scripts/ClickObject.cs"
+"Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/OnClickAndDrag.cs"
 "Assets/Scripts/OnHover.cs"
 -langversion:9.0
