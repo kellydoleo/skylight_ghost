@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Text Background
+  - Hat4
+  - Cigarette Box
+  - Picture Frame
+  - Lamp
+  - Blood
+  - Box with Vase
+  - Closed Box on Left
+  - Closed Box on Right
+  - Suitcase
+  - Candle Holder
   layers:
   - Default
   - TransparentFX

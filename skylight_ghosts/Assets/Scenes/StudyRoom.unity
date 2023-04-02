@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 00713897c568f4963b331b2168bb8be9, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00713897c568f4963b331b2168bb8be9, type: 3}
       propertyPath: m_LocalScale.x
@@ -205,7 +205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -278,7 +278,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1f17e0dd4a2df4f41aca74e76713706d, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f17e0dd4a2df4f41aca74e76713706d, type: 3}
       propertyPath: m_LocalScale.x
@@ -336,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suitcase_Merge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1f17e0dd4a2df4f41aca74e76713706d, type: 3}
+      propertyPath: m_TagString
+      value: Suitcase
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f17e0dd4a2df4f41aca74e76713706d, type: 3}
 --- !u!1001 &158695922
@@ -351,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14987c031123b98408a165a8bf1288d4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14987c031123b98408a165a8bf1288d4, type: 3}
       propertyPath: m_LocalScale.x
@@ -420,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -473,7 +477,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ce83c93fa86c742e381a59c7149f299b, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce83c93fa86c742e381a59c7149f299b, type: 3}
       propertyPath: m_LocalScale.x
@@ -531,6 +535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cardboard.021
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: ce83c93fa86c742e381a59c7149f299b, type: 3}
+      propertyPath: m_TagString
+      value: Closed Box on Right
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce83c93fa86c742e381a59c7149f299b, type: 3}
 --- !u!1001 &329406814
@@ -542,7 +550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -615,7 +623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -688,7 +696,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e647b34bc14054135830e950c0af2ed3, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e647b34bc14054135830e950c0af2ed3, type: 3}
       propertyPath: m_LocalScale.x
@@ -761,7 +769,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: dfbc2780a6cf349e1b1674294345e3f7, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dfbc2780a6cf349e1b1674294345e3f7, type: 3}
       propertyPath: m_LocalScale.x
@@ -834,7 +842,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 52c8fba91f7664cafa1668dee62fffe2, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 52c8fba91f7664cafa1668dee62fffe2, type: 3}
       propertyPath: m_LocalScale.x
@@ -950,6 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: I'm the other box
   textObject: {fileID: 1102900054}
@@ -1013,6 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "You\u2019re not quite sure how this one ended up here, given it\u2019s
     clearly marked KITCHEN. Maybe you forgot? Regardless, it seems to be missing
@@ -1131,6 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: The Picture frame
   textObject: {fileID: 1102900054}
@@ -1156,7 +1167,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7d8f5aa708ab14a88b8cf74f645398e7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d8f5aa708ab14a88b8cf74f645398e7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1214,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PackCigaretteStandard
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 7d8f5aa708ab14a88b8cf74f645398e7, type: 3}
+      propertyPath: m_TagString
+      value: Cigarette Box
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d8f5aa708ab14a88b8cf74f645398e7, type: 3}
 --- !u!1 &705429020 stripped
@@ -1260,6 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "These suitcases have taken you so many places\u2013 your study abroad
     in junior year, every apartment between home and here, and so much more. Now
@@ -1278,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18a11fd6df8ceb449b8785301026d639, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18a11fd6df8ceb449b8785301026d639, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1331,7 +1347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: dfbc2780a6cf349e1b1674294345e3f7, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dfbc2780a6cf349e1b1674294345e3f7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1439,6 +1455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: Blood, dried. Is it yours? More likely than not. A shame it stained
     the rug, though. Whoever ends up finding this place will have a hard time getting
@@ -1510,7 +1527,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &902729684
 PrefabInstance:
@@ -1521,7 +1538,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 662f40cc6c9d04dbca6a097dd967cb15, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 662f40cc6c9d04dbca6a097dd967cb15, type: 3}
       propertyPath: m_LocalScale.x
@@ -1616,7 +1633,7 @@ Transform:
   - {fileID: 991674398}
   - {fileID: 612044580}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &932391511
 PrefabInstance:
@@ -1627,7 +1644,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -1805,7 +1822,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -2034,7 +2051,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 50, y: 16.496, z: 0}
 --- !u!1 &1102900052
 GameObject:
@@ -2183,7 +2200,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e647b34bc14054135830e950c0af2ed3, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e647b34bc14054135830e950c0af2ed3, type: 3}
       propertyPath: m_LocalScale.x
@@ -2256,7 +2273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e56d81f31d9dd48f89834dbe503723d9, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e56d81f31d9dd48f89834dbe503723d9, type: 3}
       propertyPath: m_LocalScale.x
@@ -2325,7 +2342,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 00c5050191ac04cb4ba455614d8c71f4, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00c5050191ac04cb4ba455614d8c71f4, type: 3}
       propertyPath: m_LocalScale.x
@@ -2394,7 +2411,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
       propertyPath: m_LocalScale.x
@@ -2451,6 +2468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
       propertyPath: m_Name
       value: Cardboard.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
+      propertyPath: m_TagString
+      value: Closed Box on Left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7a30a4f54cf34c9fb936725741b6ad9, type: 3}
@@ -2640,7 +2661,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 50, y: -46.78, z: 0}
 --- !u!1001 &1396487499
 PrefabInstance:
@@ -2651,7 +2672,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c64fe93376077417f83e2a5f2818d21e, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c64fe93376077417f83e2a5f2818d21e, type: 3}
       propertyPath: m_LocalScale.x
@@ -2709,6 +2730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cardboard.020
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: c64fe93376077417f83e2a5f2818d21e, type: 3}
+      propertyPath: m_TagString
+      value: Box with Vase
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64fe93376077417f83e2a5f2818d21e, type: 3}
 --- !u!1 &1396487500 stripped
@@ -2741,6 +2766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "This vase was your grandmother\u2019s, originally. Got for her wedding,
     gave it to your mom. Now it\u2019s yours. One of the first things you wanted
@@ -2770,7 +2796,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -2834,6 +2860,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
+--- !u!1 &1489267139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489267140}
+  - component: {fileID: 1489267141}
+  m_Layer: 0
+  m_Name: PlayerPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489267140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489267139}
+  m_LocalRotation: {x: -0, y: 0.0043809637, z: -2.3283062e-10, w: 0.9999904}
+  m_LocalPosition: {x: 13.77, y: 5.12, z: -16.080002}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489267141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489267139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1ffe40751364532ab91d34296c1dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalPoints: 0
+  itemToTrigger: {fileID: 927852583}
 --- !u!1001 &1502143277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2841,9 +2913,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 401151438211577607, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
+      propertyPath: m_TagString
+      value: Hat4
+      objectReference: {fileID: 0}
     - target: {fileID: 8407470126417715566, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8407470126417715566, guid: 925c155961020df4aa51c9fd140dc3f2, type: 3}
       propertyPath: m_LocalScale.x
@@ -2934,6 +3010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: " This hat\u2019s from \u201981\u2013 a hand-me-down of your mother\u2019s
     from \u201Cback in the day\u201D. It\u2019s served you well, too, brought you
@@ -2965,9 +3042,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: blood1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 358b75ea5451cf143ab19029a189097d, type: 3}
+      propertyPath: m_TagString
+      value: Blood
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 358b75ea5451cf143ab19029a189097d, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 358b75ea5451cf143ab19029a189097d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3024,7 +3105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fe4d785744af2c40a2157f5b209d97f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6fe4d785744af2c40a2157f5b209d97f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3081,7 +3162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3138,7 +3219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3213,6 +3294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "This lamp was here when you moved in\u2013 a solitary light in an
     empty room. It didn\u2019t light when you plugged it in\u2014at least at first\u2014just
@@ -3237,6 +3319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "The chandelier is one of the reasons you bought this place, actually.
     Managed to catch your eye in the pictures and you couldn\u2019t get it out of
@@ -3280,7 +3363,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bc9af353feb144ceca3dadb3d813a985, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc9af353feb144ceca3dadb3d813a985, type: 3}
       propertyPath: m_LocalScale.x
@@ -3342,6 +3425,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0485a3fc742854abf9398657eb763a4f, type: 2}
+    - target: {fileID: -485356175060139533, guid: bc9af353feb144ceca3dadb3d813a985, type: 3}
+      propertyPath: m_TagString
+      value: Candle Holder
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bc9af353feb144ceca3dadb3d813a985, type: 3}
       propertyPath: m_Name
       value: Chandelier
@@ -3365,7 +3452,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -3438,7 +3525,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -3597,7 +3684,7 @@ RectTransform:
   - {fileID: 2083334961}
   - {fileID: 1102900053}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3621,6 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2a37084e1514845be642e27293d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
   displayText: "A half empty carton of smokes. You were never really much of a smoker,
     but she was, and on those loneliest nights there was comfort in lighting one
@@ -3664,7 +3752,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 38ca4945b17314d95ad310fd40b58fe1, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ca4945b17314d95ad310fd40b58fe1, type: 3}
       propertyPath: m_LocalScale.x
@@ -3737,7 +3825,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af2bbafd4b8b6447b8cfcf15025eb530, type: 3}
       propertyPath: m_LocalScale.x
@@ -3884,6 +3972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1213050088982740, guid: b69799b6680a89d468a5de91640dd387, type: 3}
+      propertyPath: m_TagString
+      value: Lamp
+      objectReference: {fileID: 0}
     - target: {fileID: 1323608309969794, guid: b69799b6680a89d468a5de91640dd387, type: 3}
       propertyPath: m_Name
       value: Lamp
@@ -3910,7 +4002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536009112550590, guid: b69799b6680a89d468a5de91640dd387, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4536009112550590, guid: b69799b6680a89d468a5de91640dd387, type: 3}
       propertyPath: m_LocalScale.x

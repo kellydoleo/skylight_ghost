@@ -338,6 +338,7 @@
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/OnClickAndDrag.cs"
 "Assets/Scripts/OnHover.cs"
+"Assets/Scripts/PlayerPoints.cs"
 -langversion:9.0
 
 /deterministic
