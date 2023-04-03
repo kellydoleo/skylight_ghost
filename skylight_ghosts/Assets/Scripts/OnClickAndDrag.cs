@@ -36,7 +36,7 @@ public class OnClickAndDrag : MonoBehaviour
             {
                 Vector3 delta = Input.mousePosition - mouseStartPosition;
                 float deltaX = delta.x * dragSpeed;
-                float newXpos = Mathf.Clamp(mousePreviousPosition.x + deltaX, minX, maxX);
+                float newXpos = Mathf.Clamp(mousePreviousPosition.x + -deltaX, minX, maxX);
                 transform.position = new Vector3(newXpos, transform.position.y, transform.position.z);
 
             }
