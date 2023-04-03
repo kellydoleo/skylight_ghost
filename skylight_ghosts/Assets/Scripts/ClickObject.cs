@@ -13,8 +13,6 @@ public class ClickObject : MonoBehaviour
     public TMP_Text textObject;
     private List<string> items = new List<string>();
 
-    //{ "Hat4", "Cigarette Box","Lamp","Blood", "Box with Vase", "Closed Box on Left", "Closed Box on Right", "Suitcase", "Candle Holder" };
-
     private bool isClicked = false;
 
     private void Start()
