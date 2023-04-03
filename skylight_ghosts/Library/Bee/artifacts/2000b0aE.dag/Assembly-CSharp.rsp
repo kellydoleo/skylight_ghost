@@ -340,6 +340,7 @@
 "Assets/Scripts/OnClickAndDrag.cs"
 "Assets/Scripts/OnHover.cs"
 "Assets/Scripts/PlayerPoints.cs"
+"Assets/Scripts/ToggleAudioOnClick.cs"
 -langversion:9.0
 
 /deterministic

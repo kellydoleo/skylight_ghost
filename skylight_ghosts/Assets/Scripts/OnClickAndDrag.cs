@@ -8,7 +8,7 @@ public class OnClickAndDrag : MonoBehaviour
     Vector3 mousePreviousPosition;
     GameObject background;
 
-    [SerializeField] private float dragSpeed = 0.1f;
+    [SerializeField] private float dragSpeed = 0.08f;
     [SerializeField] private float minX = 4.5f;
     [SerializeField] private float maxX = 23.9f;
 
