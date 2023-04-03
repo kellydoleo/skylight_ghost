@@ -12,12 +12,14 @@ TagManager:
   - Blood
   - Box with Vase
   - Closed Box on Left
-  - Closed Box on Right
   - Suitcase
   - Candle Holder
   - Close
   - Newspaper
   - Mirror
+  - Books
+  - Knife
+  - Chair
   layers:
   - Default
   - TransparentFX
