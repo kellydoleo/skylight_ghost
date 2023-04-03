@@ -326,8 +326,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "How to Play: \n\nClick & drag the screen with your mouse to explore the
-    spaces. Click on any object. \n\nClick anywhere to start."
+  m_text: "You barely lasted a few days in your new home before your blood got spilled
+    on its walls. Can you figure out what happened?\n\nHow to Play: \n\nClick & drag
+    the screen with your mouse to explore the spaces. Click on any object. \n\nClick
+    anywhere to start."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}

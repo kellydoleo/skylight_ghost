@@ -123,43 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!84 &15892073
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: MirrorFrame's RenderTexture.
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 748
-  m_Height: 748
-  m_AntiAliasing: 8
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1001 &49869446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -770,7 +733,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
-  displayText: Mirror, mirror, on the wall
+  displayText: "Mirror, mirror, on the wall\u2026 You were planning on hanging this
+    mirror up over the mantel. Keyword: were. Just as you leaned it up against the
+    wall, you could see a shadowed figure behind you; or so you thought. When you
+    turned around they weren\u2019t there anymore but the air was cold, far colder
+    than it should be. It takes a lot for your stomach to drop, but it sure did in
+    that moment, and, perhaps far too late, you realized that there might be something
+    wrong here."
   textObject: {fileID: 1102900054}
 --- !u!1001 &245030779
 PrefabInstance:
@@ -2232,6 +2201,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &868827094
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MirrorFrame's RenderTexture.
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 748
+  m_Height: 748
+  m_AntiAliasing: 8
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &892648458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4697,7 +4703,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: {fileID: 1489267141}
   objectToTrigger: {fileID: 2083334962}
-  displayText: Angel Statue
+  displayText: "The little cherub was your grandfather's, once upon a time. You never
+    liked it all that much. Honestly, you always thought it was kind of ugly, and
+    was disappointed when he left it to you in your will. But, as you\u2019re realizing
+    right now, it is the perfect size and weight to kill someone in one swift blow.
+    The rumours of a haunted house, the furniture that moved out of the corner of
+    your eyes, the figure you saw in the mirror\u2026 maybe you should have seen
+    this coming.   Now all that\u2019s left is to haunt this house along with them.  "
   textObject: {fileID: 1102900054}
 --- !u!114 &1559914969
 MonoBehaviour:
@@ -5329,18 +5341,18 @@ PrefabInstance:
     - target: {fileID: 994890251335593968, guid: 98b5ff3af91ccd54c8807184a51f0684, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 15892073}
+      objectReference: {fileID: 868827094}
     - target: {fileID: 994890251335593974, guid: 98b5ff3af91ccd54c8807184a51f0684, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.017762
+      value: -14.017766
       objectReference: {fileID: 0}
     - target: {fileID: 994890251335593974, guid: 98b5ff3af91ccd54c8807184a51f0684, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.7913692
+      value: -2.7913694
       objectReference: {fileID: 0}
     - target: {fileID: 994890251335593974, guid: 98b5ff3af91ccd54c8807184a51f0684, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.1799
+      value: 50.17991
       objectReference: {fileID: 0}
     - target: {fileID: 994890251335593974, guid: 98b5ff3af91ccd54c8807184a51f0684, type: 3}
       propertyPath: m_LocalRotation.w
